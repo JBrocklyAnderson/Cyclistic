@@ -48,6 +48,7 @@ While working with the programming language R in R Studio, I stacked together 12
 The original dataset had 13 columns, but in order to perform a more thorough analysis it was necessary to produce additional columns that would display information about things like ride distance, speed, length, and type of day. All of the attributes in the finalized clean dataset are registered in the data dictionary below. 
 
 ## Data dictionary
+
 +----------------------+----------------------------------------+
 | Variable             | Meaning                                |
 +======================+========================================+
@@ -115,21 +116,22 @@ Put yourself in the shoes of the average Cyclistic member. You may have a slight
 
 <div style="text-align:center">
   <figure>
-    <img src="C:/Users/jbroc/Documents/r_course/Data/Cyclistic/visualizations/bike_preferences20230825.png" width="500" height="500" alt="Bike Preferences Visualization">
+    <img src="visualizations/bike_preferences20230825.png" width="500" height="500" alt="Bike Preferences Visualization">
     <figcaption>Figure 1.1</figcaption>
   </figure>
 </div>
 
+  
 <div style="text-align:center">
   <figure>
-    <img src="C:/Users/jbroc/Documents/r_course/Data/Cyclistic/visualizations/average_speed_customer20230825.png" width="500" height="500" alt="Average Speed by Customer Visualization">
+    <img src="visualizations/average_speed_customer20230825.png" width="500" height="500" alt="Average Speed by Customer Visualization">
     <figcaption>Figure 1.2</figcaption>
   </figure>
 </div>
 
 <div style="text-align:center">
   <figure>
-    <img src="C:/Users/jbroc/Documents/r_course/Data/Cyclistic/visualizations/average_speed_ride_type20230825.png" width="500" height="500" alt="Average Speed by Bike Type Visualization">
+    <img src="visualizations/average_speed_ride_type20230825.png" width="500" height="500" alt="Average Speed by Bike Type Visualization">
     <figcaption>Figure 1.3</figcaption>
   </figure>
 </div>
@@ -139,28 +141,28 @@ Our analysis shows that members feel less obligated to push a single trip to the
 
 <div style="text-align:center">
   <figure>
-    <img src="C:/Users/jbroc/Documents/r_course/Data/Cyclistic/visualizations/ride_lengths20230825.png" width="500" height="500" alt="Ride Lengths Visualization">
+    <img src="visualizations/ride_lengths20230825.png" width="500" height="500" alt="Ride Lengths Visualization">
     <figcaption>Figure 2.1</figcaption>
   </figure>
 </div>
 
 <div style="text-align:center">
   <figure>
-    <img src="C:/Users/jbroc/Documents/r_course/Data/Cyclistic/visualizations/ride_counts_by_day20230825.png" width="500" height="500" alt="Ride Counts by Day Type Visualization">
+    <img src="visualizations/ride_counts_by_day20230825.png" width="500" height="500" alt="Ride Counts by Day Type Visualization">
     <figcaption>Figure 2.2</figcaption>
   </figure>
 </div>
 
 <div style="text-align:center">
   <figure>
-    <img src="C:/Users/jbroc/Documents/r_course/Data/Cyclistic/visualizations/start_times_members20230825.png" width="500" height="500" alt="Hourly Start Times by Annual Members Visualization">
+    <img src="visualizations/start_times_members20230825.png" width="500" height="500" alt="Hourly Start Times by Annual Members Visualization">
     <figcaption>Figure 2.3</figcaption>
   </figure>
 </div>
 
 <div style="text-align:center">
   <figure>
-    <img src="C:/Users/jbroc/Documents/r_course/Data/Cyclistic/visualizations/start_times_casual20230825.png" width="500" height="500" alt="Hourly Start Times for Casual Riders Visualization">
+    <img src="visualizations/start_times_casual20230825.png" width="500" height="500" alt="Hourly Start Times for Casual Riders Visualization">
     <figcaption>Figure 2.4</figcaption>
   </figure>
 </div>
@@ -170,14 +172,14 @@ Seasonally, members typically ride the most leading up to and peaking in June, w
 
 <div style="text-align:center">
   <figure>
-    <img src="C:/Users/jbroc/Documents/r_course/Data/Cyclistic/visualizations/seasonal_trends_members20230825.png" width="500" height="500" alt="Annual Members' Seasonal Frequency">
+    <img src="visualizations/seasonal_trends_members20230825.png" width="500" height="500" alt="Annual Members' Seasonal Frequency">
     <figcaption>Figure 3.1</figcaption>
   </figure>
 </div>
 
 <div style="text-align:center">
   <figure>
-    <img src="C:/Users/jbroc/Documents/r_course/Data/Cyclistic/visualizations/seasonal_trends_casual20230825.png" width="500" height="500" alt="Casual Riders' Seasonal Frequency Visualization">
+    <img src="visualizations/seasonal_trends_casual20230825.png" width="500" height="500" alt="Casual Riders' Seasonal Frequency Visualization">
     <figcaption>Figure 3.2</figcaption>
   </figure>
 </div>
@@ -187,21 +189,21 @@ Both annual members and casual riders alike typically begin their journeys along
 
 <div style="text-align:center">
   <figure>
-    <img src="C:/Users/jbroc/Documents/r_course/Data/Cyclistic/visualizations/starting_locations_ride_type20230826.png" width="500" height="500" alt="Starting Locations by Ride Type Visualization">
+    <img src="visualizations/starting_locations_ride_type20230826.png" width="500" height="500" alt="Starting Locations by Ride Type Visualization">
     <figcaption>Figure 4.1</figcaption>
   </figure>
 </div>
 
 <div style="text-align:center">
   <figure>
-    <img src="C:/Users/jbroc/Documents/r_course/Data/Cyclistic/visualizations/starting_locations_spatial_clustering20230825.png" width="500" height="500" alt="Spatial Clustering Visualization">
+    <img src="visualizations/starting_locations_spatial_clustering20230825.png" width="500" height="500" alt="Spatial Clustering Visualization">
     <figcaption>Figure 4.2</figcaption>
   </figure>
 </div>
 
 <div style="text-align:center">
   <figure>
-    <img src="C:/Users/jbroc/Documents/r_course/Data/Cyclistic/visualizations/top_10_popular_stations20230825.png" width="500" height="500" alt="Top Ten Popular Locations Visualization">
+    <img src="visualizations/top_10_popular_stations20230825.png" width="500" height="500" alt="Top Ten Popular Locations Visualization">
     <figcaption>Figure 4.3</figcaption>
   </figure>
 </div>
